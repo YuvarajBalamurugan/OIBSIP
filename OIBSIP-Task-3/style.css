@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(132, 8, 8),
+    rgb(231, 64, 9),
+    rgb(229, 218, 10)
+  );
+  height: 100vh;
+  color: rgb(224, 243, 24);
+  background-repeat: no-repeat;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  margin-left: 2%;
+  background-color: rgb(152, 10, 10);
+  border-radius: 20px;
+  box-shadow: -5px -5px 5px rgb(228, 72, 33);
+}
+.logo {
+  height: 20vh;
+  box-shadow: 5px 5px 5px rgb(220, 34, 34);
+  border-radius: 50%;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  gap: 5%;
+}
+.main img {
+  border-radius: 50%;
+}
+.form {
+  margin-top: 5vh;
+  padding: 4%;
+  border-radius: 30px;
+  background-color: transparent;
+  width: 40%;
+  border: 5px solid rgb(234, 246, 6);
+}
+h2 {
+  color: rgb(247, 243, 21);
+  font-weight: bolder;
+  font-style: normal;
+}
+h1 {
+  text-shadow: 2px 2px 2px rgb(250, 20, 20);
+}
+.button {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#button {
+  border: 2px solid rgb(228, 81, 13);
+  background-color: rgb(245, 245, 31);
+  color: rgb(240, 19, 19);
+  border-radius: 20px;
+  font-weight: bolder;
+  font-style: normal;
+  padding: 10px;
+  width: 40%;
+}
+#button:active {
+  background-color: rgb(230, 230, 31);
+  color: rgba(236, 42, 42, 0.989);
+  border: 2px solid rgb(236, 217, 12);
+}
+#input {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ed6211;
+}
+#output {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  color: #ed6211;
+}
+.form select {
+  border: 2px solid rgb(235, 156, 10);
+  border-radius: 10px;
+  padding: 7px;
+  margin-left: 3%;
+  font-style: normal;
+}
